@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Reflection Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="language-switcher">
+        <button class="lang-btn" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="fr">Français</button>
+        <button class="lang-btn" data-lang="es">Español</button>
+    </div>
+
+    <div class="container">
+        <h1 id="page-title">Student Course Reflection</h1>
+        <p id="greeting">Welcome to your reflection page! Please share your thoughts about the course.</p>
+
+        <form id="reflection-form">
+            <div class="question-group">
+                <label id="question-1" for="answer-1">What did you enjoy most about the course?</label>
+                <textarea id="answer-1" name="answer1" rows="4" required></textarea>
+            </div>
+
+            <div class="question-group">
+                <label id="question-2" for="answer-2">What was the most challenging part?</label>
+                <textarea id="answer-2" name="answer2" rows="4" required></textarea>
+            </div>
+
+            <div class="question-group">
+                <label id="question-3" for="answer-3">What could be improved?</label>
+                <textarea id="answer-3" name="answer3" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" id="submit-btn">Submit Reflection</button>
+        </form>
+
+        <div id="success-message" class="success-message hidden">
+            <p id="success-text">Thank you for your reflection!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p id="footer-text">© 2024 Course Management Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
