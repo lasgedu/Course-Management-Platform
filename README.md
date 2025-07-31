@@ -67,7 +67,7 @@ Key Components:
 * Models: Courses, Users, Enrollments, Activity Logs
 * Services: Notification, Redis Queue
 * Middleware: JWT Auth, Role Validation
-
+```
 src/
 ├── app.js                 # Application entry point
 ├── config/
@@ -104,6 +104,7 @@ src/
 │   └── notificationWorker.js    # Module 2
 ├── migrations/           # Database migrations
 └── seeders/             # Database seeders
+```
 
 ## Deployment
 Production Tips
