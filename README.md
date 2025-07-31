@@ -85,11 +85,13 @@ Tech Stack:
 Node.js + Express + Sequelize (MySQL) + Redis
 ```
 
-Key Components:
+### Key Components:
 ```
 * Models: Courses, Users, Enrollments, Activity Logs
 * Services: Notification, Redis Queue
 * Middleware: JWT Auth, Role Validation
+```
+### Project Structure
 ```
 src/
 ├── app.js                 # Application entry point
