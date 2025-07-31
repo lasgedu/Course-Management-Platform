@@ -22,6 +22,8 @@ Requirements
 * Node.js 16+ | MySQL 8+ | Redis 6+ (Module 2)
 
 ## Install
+```
+
 bashDownloadCopy code Wrapgit clone <repo-url>
 cd course-management-platform
 npm install
@@ -36,34 +38,55 @@ Initialize
 bashDownloadCopy code Wrapnpm run migrate   # Set up database
 npm run seed      # Load demo data
 npm start         # Run server (Port 3000)
+```
+
 
 ## Testing Accounts
+```
+
 Use these credentials:
 RoleEmailPasswordManagerjohn.manager@uni.eduManager123!Facilitatoralice.smith@uni.eduFacilitator123!Studentemma.student@student.uni.eduStudent123!
+```
 
 ## Core Endpoints
+```
+
 Authentication
 POST /api/auth/login      # Login
 POST /api/auth/refresh    # Refresh token
+```
 
 ### Courses
+```
+
 GET /api/v1/course-offerings       # List courses
 POST /api/v1/course-offerings      # Create course
 PUT /api/v1/course-offerings/:id   # Update course
+```
 
-### Enrollment
+### EnrollmenT
+```
+
 GET /api/v1/students/enrolled-courses  # View courses
 POST /api/v1/course-offerings/:id/enroll # Enroll student
+```
 
 ### Activity Tracking (Module 2)
+```
+
 POST /api/v1/activity-logs          # Submit weekly log
 GET /api/v1/activity-logs/compliance # Check deadlines
+```
 
 ### Architecture
+```
 Tech Stack:
-Node.js + Express + Sequelize (MySQL) + Redis
-Key Components:
 
+Node.js + Express + Sequelize (MySQL) + Redis
+```
+
+Key Components:
+```
 * Models: Courses, Users, Enrollments, Activity Logs
 * Services: Notification, Redis Queue
 * Middleware: JWT Auth, Role Validation
