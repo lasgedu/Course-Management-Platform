@@ -10,7 +10,7 @@ Module 1: Core System
 * Role-Based Access: Admin/Facilitator/Student permissions
 * Reporting Tools: Academic statistics and cohort management
 
-## Key Features
+## Course Reflection Page
 https://github.com/lasgedu/Reflection-Page
 
 ## Module 2: Activity Tracker (In Dev)
