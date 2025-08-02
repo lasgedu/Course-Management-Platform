@@ -18,8 +18,6 @@ Module 1: Core System
 Project DeMo 
 [https://youtu.be/irCOsfoHYqk)](https://youtu.be/irCOsfoHYqk)
 
-https://youtu.be/irCOsfoHYqk
-
 ## Module 2: Activity Tracker (In Dev)
 
 * Weekly Logs: Record faculty attendance and grading status
