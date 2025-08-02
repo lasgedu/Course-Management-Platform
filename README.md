@@ -13,6 +13,13 @@ Module 1: Core System
 ## Course Reflection Page
 [https://github.com/lasgedu/Reflection-Page](https://lasgedu.github.io/Course-Management-Platform/)
 
+## Course Reflection Page
+
+Project DeMo 
+[https://youtu.be/irCOsfoHYqk)](https://youtu.be/irCOsfoHYqk)
+
+https://youtu.be/irCOsfoHYqk
+
 ## Module 2: Activity Tracker (In Dev)
 
 * Weekly Logs: Record faculty attendance and grading status
