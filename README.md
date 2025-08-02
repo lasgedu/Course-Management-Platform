@@ -11,7 +11,7 @@ Module 1: Core System
 * Reporting Tools: Academic statistics and cohort management
 
 ## Course Reflection Page
-https://github.com/lasgedu/Reflection-Page
+[https://github.com/lasgedu/Reflection-Page](https://lasgedu.github.io/Course-Management-Platform/)
 
 ## Module 2: Activity Tracker (In Dev)
 
